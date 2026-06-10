@@ -1,0 +1,233 @@
+{
+  "methodology": {
+    "framework": {
+      "folder": "frameworks",
+      "mode": "new_file",
+      "sections": [
+        [
+          "Definition",
+          "definition"
+        ],
+        [
+          "How to apply",
+          "apply"
+        ],
+        [
+          "Example",
+          "example"
+        ]
+      ]
+    },
+    "principle": {
+      "folder": "principles",
+      "mode": "new_file",
+      "sections": [
+        [
+          "Statement",
+          "statement"
+        ],
+        [
+          "Why",
+          "why"
+        ],
+        [
+          "How to check",
+          "check"
+        ]
+      ]
+    },
+    "learning": {
+      "folder": "learnings",
+      "mode": "new_file",
+      "sections": [
+        [
+          "Pattern",
+          "pattern"
+        ],
+        [
+          "Evidence",
+          "evidence"
+        ],
+        [
+          "How to reuse",
+          "reuse"
+        ]
+      ]
+    },
+    "taxonomy": {
+      "folder": "taxonomies",
+      "mode": "section_in_file",
+      "file_slot": "taxonomy_file"
+    },
+    "template": {
+      "folder": "templates",
+      "mode": "new_file_named",
+      "subfolder_slot": "template_kind",
+      "sections": [
+        [
+          "When to use",
+          "when"
+        ],
+        [
+          "Structure",
+          "structure"
+        ]
+      ]
+    },
+    "visual-format": {
+      "folder": "templates/visual-formats",
+      "mode": "named_file",
+      "sections": [
+        [
+          "Setting",
+          "setting"
+        ],
+        [
+          "Camera",
+          "camera"
+        ],
+        [
+          "Wardrobe",
+          "wardrobe"
+        ],
+        [
+          "Edit style",
+          "edit"
+        ],
+        [
+          "Audio",
+          "audio"
+        ],
+        [
+          "On-screen text / overlays",
+          "overlays"
+        ],
+        [
+          "Props",
+          "props"
+        ],
+        [
+          "Producibility tier",
+          "tier"
+        ],
+        [
+          "Reference",
+          "reference"
+        ]
+      ]
+    }
+  },
+  "client": {
+    "transcription": {
+      "folder": "corpus",
+      "mode": "new_file",
+      "sections": [
+        [
+          "Summary",
+          "summary"
+        ],
+        [
+          "Key points",
+          "key_points"
+        ],
+        [
+          "Notable quotes",
+          "quotes"
+        ]
+      ]
+    },
+    "past-content": {
+      "folder": "corpus",
+      "mode": "new_file",
+      "sections": [
+        [
+          "Summary",
+          "summary"
+        ],
+        [
+          "Key points",
+          "key_points"
+        ],
+        [
+          "Reusable angles",
+          "angles"
+        ]
+      ]
+    },
+    "inspiration-analysis": {
+      "folder": "inspiration",
+      "mode": "new_file",
+      "sections": [
+        [
+          "What it is",
+          "what"
+        ],
+        [
+          "Why it works",
+          "why"
+        ],
+        [
+          "Reusable pattern",
+          "pattern"
+        ]
+      ]
+    },
+    "script": {
+      "folder": "outputs/scripts",
+      "mode": "new_file",
+      "sections": [
+        [
+          "Hook",
+          "hook"
+        ],
+        [
+          "Body",
+          "body"
+        ],
+        [
+          "CTA",
+          "cta"
+        ]
+      ]
+    },
+    "brief": {
+      "folder": "outputs/briefs",
+      "mode": "new_file",
+      "sections": [
+        [
+          "Core idea",
+          "core_idea"
+        ],
+        [
+          "Hook angle",
+          "hook_angle"
+        ],
+        [
+          "CTA",
+          "cta"
+        ]
+      ]
+    },
+    "identity-fact": {
+      "folder": "identity",
+      "mode": "section_in_file",
+      "file_slot": "identity_file"
+    },
+    "voice-trait": {
+      "folder": "voice",
+      "mode": "section_in_file",
+      "file_slot": "voice_file",
+      "allowed_files": [
+        "tone",
+        "idioms",
+        "vocabulary",
+        "prohibitions"
+      ]
+    },
+    "voice-sample": {
+      "folder": "voice",
+      "mode": "append_block",
+      "file": "voice-samples"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "content-engine",
+  "version": "0.4.1",
+  "description": "Deterministic Obsidian knowledge engine for content businesses: one methodology vault + isolated client vaults, closed folder catalog with lazy creation, type-routed markdown ingestion.",
+  "author": {
+    "name": "iZ3B4Z"
+  },
+  "repository": "https://github.com/iZ3B4Z/content-engine",
+  "license": "MIT",
+  "skills": [
+    "./skills/wiki-setup",
+    "./skills/wiki-ingest",
+    "./skills/wiki-query",
+    "./skills/wiki-maintain",
+    "./skills/wiki-templates"
+  ]
+}

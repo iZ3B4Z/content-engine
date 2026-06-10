@@ -1,0 +1,11 @@
+{
+  "name": "content-engine",
+  "owner": { "name": "iZ3B4Z" },
+  "plugins": [
+    {
+      "name": "content-engine",
+      "source": "./",
+      "description": "Deterministic Obsidian knowledge engine for content businesses (methodology + client vaults, closed catalog, lazy creation, type-routed ingestion)."
+    }
+  ]
+}
